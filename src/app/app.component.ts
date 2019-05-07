@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   mensaje = 'Curso de Angular';
   nombre = 'denishuaman';
+  imagenURL = 'http://lorempixel.com/400/200';
+  estadoBoton = true;
 
   getNombre() {
     return this.nombre;
