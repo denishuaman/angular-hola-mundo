@@ -10,6 +10,7 @@ export class AppComponent {
   nombre = 'denishuaman';
   imagenURL = 'http://lorempixel.com/400/200';
   estadoBoton = true;
+  esActivo = true;
 
   getNombre() {
     return this.nombre;
