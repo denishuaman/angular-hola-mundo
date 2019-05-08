@@ -19,5 +19,8 @@
 <input type="text" (keyup.enter)="onKeyUpEnter()" placeholder="OnKeyUp con filtro ENTER">
 <h1>Ejemplos de Template variable</h1>
 <input type="text" (keyup.enter)="onKeyUp2(usuario.value)" #usuario>
+<h1>Ejemplos de Two way binding - ngModel</h1>
+<input type="text" [(ngModel)]="persona.nombre">
+<p>{{ persona.nombre }}</p>
 <hr />
 <cursos></cursos>

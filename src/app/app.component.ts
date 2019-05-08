@@ -11,6 +11,10 @@ export class AppComponent {
   imagenURL = 'http://lorempixel.com/400/200';
   estadoBoton = true;
   esActivo = true;
+  persona = {
+    nombre: 'Denis',
+    edad: 25
+  };
 
   getNombre() {
     return this.nombre;
