@@ -19,4 +19,14 @@ export class AppComponent {
   save(e) {
     console.log(e);
   }
+
+  onKeyUp(e) {
+    if(e.keyCode === 13) {
+      console.log('ENTER fue presionado');
+    }
+  }
+
+  onKeyUpEnter() {
+    console.log('ENTER fue presionado');
+  }
 }

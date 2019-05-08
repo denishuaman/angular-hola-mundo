@@ -14,5 +14,8 @@
 <h1>Ejemplos de Event Binding</h1>
 <button (click)="save($event)">Event Click</button>
 <button (mouseover)="save($event)">Event Mouse Ever</button>
+<h1>Ejemplos de Event Filtering</h1>
+<input type="text" (keyup)="onKeyUp($event)" placeholder="OnKeyUp general">
+<input type="text" (keyup.enter)="onKeyUpEnter()" placeholder="OnKeyUp con filtro ENTER">
 <hr />
 <cursos></cursos>
