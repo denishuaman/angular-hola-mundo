@@ -17,5 +17,7 @@
 <h1>Ejemplos de Event Filtering</h1>
 <input type="text" (keyup)="onKeyUp($event)" placeholder="OnKeyUp general">
 <input type="text" (keyup.enter)="onKeyUpEnter()" placeholder="OnKeyUp con filtro ENTER">
+<h1>Ejemplos de Template variable</h1>
+<input type="text" (keyup.enter)="onKeyUp2(usuario.value)" #usuario>
 <hr />
 <cursos></cursos>

@@ -29,4 +29,8 @@ export class AppComponent {
   onKeyUpEnter() {
     console.log('ENTER fue presionado');
   }
+
+  onKeyUp2(usuario) {
+    console.log('Texto ingresado:', usuario);
+  }
 }
