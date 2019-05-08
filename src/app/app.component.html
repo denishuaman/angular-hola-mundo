@@ -11,5 +11,8 @@
 <button [style.backgroundColor]="esActivo ? 'lightgreen' : 'indianred'">Botón Style Binding</button>
 <br/>
 <button [style.borderColor]="esActivo ? 'lightgreen' : 'indianred'">Botón Style Binding</button>
+<h1>Ejemplos de Event Binding</h1>
+<button (click)="save($event)">Event Click</button>
+<button (mouseover)="save($event)">Event Mouse Ever</button>
 <hr />
 <cursos></cursos>

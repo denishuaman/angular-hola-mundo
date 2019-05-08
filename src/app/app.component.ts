@@ -15,4 +15,8 @@ export class AppComponent {
   getNombre() {
     return this.nombre;
   }
+
+  save(e) {
+    console.log(e);
+  }
 }
